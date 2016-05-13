@@ -118,7 +118,6 @@ class RESTClientObject(object):
                             `application/x-www-form-urlencode`
                             and `multipart/form-data`
         """
-        print('method: {method}, url: {url}, query_params : {query_params}, headers: {headers}, body: {body}'.format(**locals()))
         method = method.upper()
         assert method in ['GET', 'HEAD', 'DELETE', 'POST', 'PUT', 'PATCH', 'OPTIONS']
 
