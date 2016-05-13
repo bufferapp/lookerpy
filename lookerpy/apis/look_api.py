@@ -410,8 +410,7 @@ class LookApi(object):
         if ('format' not in params) or (params['format'] is None):
             raise ValueError("Missing the required parameter `format` when calling `run_look`")
 
-
-        resource_path = '/looks/{look_id}/run/{format}'.replace('{format}', 'json')
+        resource_path = '/looks/{look_id}/run/{format}'
         path_params = {}
         if 'look_id' in params:
             path_params['look_id'] = params['look_id']
