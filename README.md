@@ -51,7 +51,7 @@ import lookerpy
 from lookerpy.rest import ApiException
 from pprint import pprint
 # create an instance of the API class
-api_instance = lookerpy.ApiAuthApi
+api_instance = lookerpy.ApiAuthApi()
 client_id = 'client_id_example' # str | client_id part of API3 Key. (optional)
 client_secret = 'client_secret_example' # str | client_secret part of API3 Key. (optional)
 
